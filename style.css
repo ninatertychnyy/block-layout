@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+  background-color: black;
+  margin-top: 100px;
+}
+.squares {
+  width: 600px;
+  height: 300px;
+  border: 7px solid white;
+  margin: 0 auto;
+}
+.halth {
+  width: 50%;
+  height: 100%;
+}
+.block { 
+  background-color: #2f3d4f; 
+  border: 1px solid white;
+  color: white;
+  text-align: center; 
+  display: table;
+  vertical-align: middle;
+  border-left: none;
+  border-bottom: none;
+}
+.row {
+  width: 50%;
+  height: 50%;  
+}
+.cell {
+  width: 33.33%;
+  height: 33.33%;
+}
+.left {
+  float: left;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
